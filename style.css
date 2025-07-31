@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.stopwatch-container {
+  border: 3px solid black;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 5px 5px 0 black;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.display {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  border: 2px dashed black;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.buttons button {
+  background-color: white;
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.buttons button:hover {
+  background-color: black;
+  color: white;
+}
+
+.laps {
+  list-style-type: decimal;
+  text-align: left;
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
